@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{ 
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    padding: 0;
+  }
+  
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+  }
+
+  header .header-nav{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: "Raleway";
+  }
+
+  header .header-nav span{
+    cursor: pointer;
+  }
+
+  header .header-nav span:hover{
+    color: var(--Bright-Blue);
+  }
+
+  .firstsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .firstcont{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+  }
+
+  .firstillus{
+  width: 500px;
+  }
+
+  .paraheadings{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .para{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+  }
+
+  .lastincont{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstinput{
+    flex-grow: 1;
+    padding: 10px;
+  }
+
+  .submit{
+    flex-grow: 1;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 40px;
+    font-weight: 400;
+  }
+  
+  .deskcurve{
+    width:-webkit-fill-available ;
+    margin-top: 150px;
+  }
+  
+
+.seconcsec{
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-position: center;
+  margin-top: 60px;
+  padding-top: 90px;
+  padding-left: 60px;
+  padding-right: 60px;
+} 
+
+.secondillus{
+  width: 500px;
+  height: 410px;
+  margin-top: 60px
+}
+
+.secondcont{
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.profile-name img{
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  align-items: start;
+  margin-top: 50px;
+  width: 370px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-name .names{
+display: flex;
+flex-direction: column;
+line-height: 0;
+}
+
+.para1{
+font-size: 14px;
+font-weight: 700;
+}
+.para2{
+font-size: 10px;
+}
+
+.secondlink{
+text-decoration: none;
+color: var(--Moderate-Cyan);
+border-bottom: 1px solid var(--Moderate-Cyan);
+padding-top: 10px;
+padding-bottom: 5px;
+display: flex;
+width: fit-content;
+gap: 10px;
+align-items: center;
+font-family: "Open Sans";
+}
+
+.lastsec{
+  background-color: var(--Desaturated-Blue);
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.buts{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+
+}
+
+.contf{
+  width: 500px;
+}
+
+.para3{
+  color: var(--Light-Grayish-Blue);
+}
+
+.inputemail{
+  width: 420px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+#startbutt{
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--Bright-Blue);
+  color: var(--Light-Grayish-Blue);
+  width: fit-content;
+  font-family: "Open Sans";
+  border-radius: 2px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--Very-Dark-Blue);
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 400px;
+  gap: 40px;
+}
+
+.footcont{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.items{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.items span{
+  color: var(--Light-Grayish-Blue);
+  font-family: "Open Sans";
+  padding: 5px;
+  width: fit-content;
+  border-bottom: 1px solid transparent;
+}
+
+.items span:hover{
+  cursor: pointer;
+}
+
+.items:not(:first-child)  span:hover{
+  border-color: var(--Light-Grayish-Blue);
+}
+
+@media only screen and (max-width: 970px) {
+  
+.firstsec{
+  gap: 50px;
+  flex-direction: column-reverse;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstsec .paraheadings{
+  text-align: center;
+}
+
+.firstsec .para{
+  text-align-last: center;
+}
+
+.seconcsec{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+}
+
+@media only screen and (max-width: 931px){
+
+.lastsec {
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  padding-bottom: 80px;
+}
+
+.contf{
+  max-width: 500px;
+  text-align: center;
+}
+
+.buts{
+  flex-direction: column;
+}
+
+#startbutt{
+  text-align: center;
+  width: auto;
+}
+
+.secondlink, .card-container{
+  align-self: center;
+}
+}
+
+@media only screen and (max-width: 526px){
+
+  .footcont{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+footer{
+  height: auto;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.items{
+  gap: 7px;
+}
+
+.firstcont, .secondcont, .card-container, .contf, .buts{
+  width: 80%;
+}
+
+header img{
+  height: 30px;
+}
+
+.lastincont{
+  flex-direction: column;
+}
+
+.firstinput,.submit{
+  width: 100%;
+margin-right: 0;
+}
+
+.inputemail{
+  width: auto;
+}
+
+.firstillus,.secondillus {
+  width: 90%;
+  height: 90%;
+}
+}
+
+@media only screen and (max-width: 440px){
+
+header{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.header-nav{
+  gap: 25px;
+}
+}
+
+@media only screen and (max-width: 365px){
+  .header-nav{
+    gap: 15px;
+  }
+}
+
+
